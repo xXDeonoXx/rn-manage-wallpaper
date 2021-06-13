@@ -1,17 +1,17 @@
-# react-native-wallpaper-manager
+# rn-manage-wallpaper
 
 this package allows you to access wallpaper tools from native apis
 
 ## Installation
 
 ```sh
-npm install react-native-wallpaper-manager
+npm install rn-manage-wallpaper
 ```
 
 ## Usage
 
 ```js
-import WallpaperManager from "react-native-wallpaper-manager";
+import WallpaperManager from 'rn-manage-wallpaper';
 
 // ...
 

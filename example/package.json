@@ -1,6 +1,6 @@
 {
-  "name": "react-native-wallpaper-manager-example",
-  "description": "Example app for react-native-wallpaper-manager",
+  "name": "rn-manage-wallpaper-example",
+  "description": "Example app for rn-manage-wallpaper",
   "version": "0.0.1",
   "private": true,
   "scripts": {

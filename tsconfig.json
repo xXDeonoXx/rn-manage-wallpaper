@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "react-native-wallpaper-manager": ["./src/index"]
+      "rn-manage-wallpaper": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

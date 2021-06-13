@@ -8,7 +8,7 @@ target 'WallpaperManagerExample' do
 
   use_react_native!(:path => config["reactNativePath"])
 
-  pod 'react-native-wallpaper-manager', :path => '../..'
+  pod 'rn-manage-wallpaper', :path => '../..'
 
   # Enables Flipper.
   #
