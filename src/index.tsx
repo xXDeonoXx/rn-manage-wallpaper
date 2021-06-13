@@ -1,7 +1,8 @@
 import { NativeModules } from 'react-native';
 
 type WallpaperManagerType = {
-  multiply(a: number, b: number): Promise<number>;
+  setWallpaper(uri: string, flag?: number | null): Promise<void>;
+  getConstants(): { FLAG_LOCK: number; FLAG_SYSTEM: number };
 };
 
 const { WallpaperManager } = NativeModules;

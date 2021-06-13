@@ -1,19 +1,17 @@
 import * as React from 'react';
 
-import { StyleSheet, View, Text } from 'react-native';
-import WallpaperManager from 'rn-manage-wallpaper';
+import { StyleSheet, View } from 'react-native';
+// import WallpaperManager from 'rn-manage-wallpaper';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
+  // const [result, setResult] = React.useState<number | undefined>();
 
   React.useEffect(() => {
-    WallpaperManager.multiply(3, 7).then(setResult);
+    // WallpaperManager.multiply(3, 7).then(setResult);
   }, []);
 
   return (
-    <View style={styles.container}>
-      <Text>Result: {result}</Text>
-    </View>
+    <View style={styles.container}>{/* <Text>Result: {result}</Text> */}</View>
   );
 }
 
